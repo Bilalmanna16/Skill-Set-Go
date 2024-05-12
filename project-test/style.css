@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 68, 0, 0.041);
+    overflow: hidden;
+}
+    
+.max-width-container{
+    height: 100vh;
+    width: 86vw;
+    position: absolute;
+    left: 7%;
+    right: 7%;
+}
+    
+.logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: fit-content;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: orangered;
+}
+
+
+.max-width-container{
+    height: 100vh;
+    width: 86vw;
+    position: absolute;
+    left: 7%;
+    right: 7%;
+    border: 2px solid white;
+}
+
+.logo-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: orangered;
+    width: fit-content;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+
+.circle-container{
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    top: -30%;
+    right: -30%;
+}
+
+.circle1{
+    height: 90vh;
+    width: 47vw;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ffb59556;
+}
+
+.circle2{
+    height: 70vh;
+    width: 37vw;
+    border-radius: 50%;
+    background-color: #ff743837;
+    position: relative;
+    margin-top: 67px;
+    margin-left: 67px;
+}
+
+.circle-container2{
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    bottom: -30%;
+    left: -30%;
+}
+
+.circle3{
+    height: 90vh;
+    width: 47vw;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ffb5954e;
+}
+
+.circle4{
+    height: 70vh;
+    width: 37vw;
+    border-radius: 50%;
+    background-color: #ff743837;
+    position: relative;
+    margin-top: 67px;
+    margin-left: 67px;
+}
+
+#nav-icon{
+    font-size: 2em;
+    top: 1.8px;
+    position: relative;
+}
+
+
+.nav-bar{
+    margin: 0;
+    border: none;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    right: 5vw;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 12vh;
+}
+
+li {
+    list-style: none;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: orangered;
+    position: relative;
+    top: 20px;
+    transition: font-size 0.6s ease;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.join-btn{
+    position: relative;
+    height: 38px;
+    width: 68px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    background-color: orangered;
+    color: white;
+}
+button{
+    font-weight: 700;
+}
+
+.nav-links{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    column-gap: 40px;
+}
+
+li:hover{
+    font-size: 25px;
+}
+
+.title-box{
+    height: 25vh;
+    width: 70vw;
+    position: absolute;
+    top: 30vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-title{
+    margin: 0;
+    font-size: 4rem;
+    color: orangered;
+    margin-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.sub-titles{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-titles h2 {
+    margin: 0;
+    color: rgba(255, 68, 0, 0.717);
+}
+
+.btn{
+    height: 12vh;
+    width: 20vw;
+    position: relative;
+    top: 60vh;
+    right: 66.5vw;
+    display: flex;
+    align-items: center;
+}
+
+#get-started{
+    height: 10vh;
+    width: 15vw;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 12px;
+    background-color: orangered;
+    color: white;
+    transition: height,width,font-size 0.9s ease;
+}
+
+
+#get-started:hover{
+    height: 10.5vh;
+    width: 15.5vw;
+    font-size: 1.45rem;
+}
+
+
+#img{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    top: 17vh;
+    left: 30vw;
+}
+
+.logo-text{
+    border: none;
+}
